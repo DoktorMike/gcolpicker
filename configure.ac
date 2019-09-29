@@ -16,9 +16,9 @@ dnl 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA
 
 
 AC_PREREQ([2.50])
-AC_INIT([gcolpicker], [0.5.2])
+AC_INIT([gcolpicker], [0.5.3])
 AM_CONFIG_HEADER([config.h])
-AM_INIT_AUTOMAKE([gcolpicker], [0.5.2])
+AM_INIT_AUTOMAKE([gcolpicker], [0.5.3])
 
 AM_MAINTAINER_MODE
 
