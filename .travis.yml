@@ -1,7 +1,10 @@
 dist: bionic
 language: c
 compiler: gcc
-
+addons:
+  apt:
+    packages:
+      - intltool
 script:
     - ./autogen.sh
     - ./configure
