@@ -8,5 +8,4 @@ addons:
       - libgtk2.0-dev
 script:
     - ./autogen.sh
-    - ./configure
     - make
