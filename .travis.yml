@@ -7,5 +7,6 @@ addons:
       - intltool
       - libgtk2.0-dev
 script:
+    - libtoolize --copy --force
     - ./autogen.sh
     - make
