@@ -4,9 +4,7 @@ SUBDIRS = src po pixmaps
 
 EXTRA_DIST = \
 	autogen.sh \
-	gcolpicker.spec.in \
-	gcolor2.glade \
-	gcolor2.gladep
+	gcolpicker.spec.in
 
 #install-data-local:
 #	@$(NORMAL_INSTALL)
