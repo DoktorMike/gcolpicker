@@ -1,7 +1,9 @@
 # gcolpicker
-Implementation of a GTK color picker (forked from Gcolor2)
+Implementation of a GTK color picker (forked from Gcolor2). It's basically a GTK2 color selector which provides a quick and easy way to find colors for whatever task is at hand. Colors can be saved and deleted as well.
 
 [![Build Status](https://travis-ci.org/DoktorMike/gcolpicker.svg?branch=master)](https://travis-ci.org/DoktorMike/gcolpicker)
+
+![scrot](images/scrot.png)
 
 ## Installing
 
