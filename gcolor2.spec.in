@@ -1,0 +1,45 @@
+Name:           @PACKAGE@
+Version:        @VERSION@
+Release:        1
+Epoch:          0
+Summary:        Gcolor2 is a simple color selector
+
+Group:          Applications/Multimedia 
+License:        GPL
+URL:            http://gcolor2.sourceforge.net/
+Source0:        %{name}-%{version}.tar.gz        
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+
+BuildRequires:  gtk2-devel >= 2.0
+Requires:       gtk2 > 2.0
+
+%description 
+Gcolor2 is a GTK2 color selector to provide a quick 
+and easy way to find colors for whatever task is at 
+hand. Colors can be saved and deleted as well.
+
+
+%prep
+%setup -q
+
+%build
+%configure 
+%{__make} %{?_smp_mflags}
+
+%install
+%{__rm} -rf %{buildroot}
+%makeinstall
+
+%clean
+%{__rm} -rf %{buildroot}
+
+%files
+%defattr(-,root,root,-)
+%doc AUTHORS ChangeLog COPYING INSTALL NEWS README
+%{_bindir}/%{name}
+# 'make install' creates an empty $prefix/share ??
+%exclude %{_datadir}
+
+%changelog
+* Tue Sep 28 2004 Ricardo Veguilla <veguilla@hpcf.upr.edu> - 0.2
+- Initial package.
