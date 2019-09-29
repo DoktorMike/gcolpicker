@@ -16,9 +16,9 @@ dnl 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA
 
 
 AC_PREREQ([2.50])
-AC_INIT([gcolor2], [0.4])
+AC_INIT([gcolpicker], [0.5])
 AM_CONFIG_HEADER([config.h])
-AM_INIT_AUTOMAKE([gcolor2], [0.4])
+AM_INIT_AUTOMAKE([gcolpicker], [0.5])
 
 AM_MAINTAINER_MODE
 
@@ -28,7 +28,7 @@ AC_PROG_LIBTOOL
 AC_PROG_INTLTOOL([0.27])
 
 
-GETTEXT_PACKAGE=gcolor2
+GETTEXT_PACKAGE=gcolpicker
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
 
@@ -48,7 +48,7 @@ Makefile
 src/Makefile
 po/Makefile.in
 pixmaps/Makefile
-gcolor2.spec
+gcolpicker.spec
 ])
 
 AC_OUTPUT

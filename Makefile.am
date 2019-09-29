@@ -4,7 +4,7 @@ SUBDIRS = src po pixmaps
 
 EXTRA_DIST = \
 	autogen.sh \
-	gcolor2.spec.in \
+	gcolpicker.spec.in \
 	gcolor2.glade \
 	gcolor2.gladep
 
