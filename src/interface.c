@@ -422,7 +422,7 @@ create_about_dialog (void)
   gtk_widget_show (about_notes_label);
   gtk_notebook_set_tab_label (GTK_NOTEBOOK (about_notebook), gtk_notebook_get_nth_page (GTK_NOTEBOOK (about_notebook), 1), about_notes_label);
 
-  about_label2 = gtk_label_new (_("Copyright \302\251 2004-2005 Justin Spadea"));
+  about_label2 = gtk_label_new (_("Copyright \302\251 2019 Michael Green"));
   gtk_widget_show (about_label2);
   gtk_box_pack_start (GTK_BOX (dialog_vbox3), about_label2, FALSE, FALSE, 5);
   gtk_label_set_use_markup (GTK_LABEL (about_label2), TRUE);

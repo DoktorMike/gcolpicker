@@ -1,4 +1,4 @@
-dnl Copyright (c) 2004-2005  Justin Spadea
+dnl Copyright (c) 2019  Michael Green
 dnl
 dnl This program is free software; you can redistribute it and/or modify it
 dnl under the terms of the GNU General Public License as published by the
@@ -16,9 +16,9 @@ dnl 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA
 
 
 AC_PREREQ([2.50])
-AC_INIT([gcolpicker], [0.5])
+AC_INIT([gcolpicker], [0.5.1])
 AM_CONFIG_HEADER([config.h])
-AM_INIT_AUTOMAKE([gcolpicker], [0.5])
+AM_INIT_AUTOMAKE([gcolpicker], [0.5.1])
 
 AM_MAINTAINER_MODE
 

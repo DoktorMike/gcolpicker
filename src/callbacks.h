@@ -15,15 +15,17 @@
 
 /* about dialog text */
 #define ABOUT_CREDITS_TEXT "Developer:\n" \
-                           "Justin Spadea <justin@j-z-s.com>\n\n" \
+                           "Michael Green <micke.green@gmail.com>\n\n" \
                            "Special Thanks To:\n" \
+                           "Justin Spadea <justin@j-z-s.com>\n" \
+                           "\t\302\267 Original developer\n" \
                            "Eugenia Loli-Queru <eloli@hotmail.com>\n" \
                            "\t\302\267 Insight on the UI design\n" \
                            "\t\302\267 Provided the icon\n" \
                            "Ricardo Veguilla <veguilla@hpcf.upr.edu>\n" \
                            "\t\302\267 Provided spec file\n\n" \
                            "Official Website:\n" \
-                           "http://gcolor2.sourceforge.net"
+                           "https://github.com/DoktorMike/gcolpicker"
 #define ABOUT_NOTES_TEXT   "Known Issues:\n" \
                            "For some colors, you may notice the hex value " \
                            "displayed in the color selector is slightly " \

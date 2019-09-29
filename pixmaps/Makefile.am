@@ -1,4 +1,4 @@
-## Copyright (c) 2004-2005  Justin Spadea  <justin@j-z-s.com>
+## Copyright (c) 2019 Michael Green <micke.green@gmail.com>
 ##
 ## This program is free software; you can redistribute it and/or modify it
 ## under the terms of the GNU General Public License as published by the

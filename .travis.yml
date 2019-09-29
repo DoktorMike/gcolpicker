@@ -13,8 +13,8 @@ script:
     - make dist
 deploy:
   provider: releases
-  api_key: "c8a955ee8ee446011bbd7d6a2ee2e1ace5ea30ce"
-  file: "FILE TO UPLOAD"
+  api_key: "$APIKEY"
+  file: "gcolpicker*.tar.gz"
   skip_cleanup: true
   on:
     tags: true
