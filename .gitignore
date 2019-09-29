@@ -53,3 +53,17 @@ dkms.conf
 
 # autoconf
 autom4te.cache/
+aclocal.m4
+Makefile
+compile
+config.guess
+config.status
+config.sub
+configure
+Makefile.in
+missing
+libtool
+depcomp
+stamp-h1
+po/Makefile.in.in
+gcolpicker.spec
